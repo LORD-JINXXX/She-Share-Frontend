@@ -1,0 +1,237 @@
+main {
+    margin: 0;
+    padding: 0;
+    display: grid;
+}
+
+.sectionTwoContainer {
+    width: 100vw;
+    height: 400px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 0;
+}
+
+.sectionTwoContainer .backGroundTwo {
+    width: 1200px;
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 150px;
+    border-radius: 40px;
+}
+
+.sectionTwoContainer .backGroundTwo img {
+    width: 100%;
+    height: 100%;
+    border-radius: 40px;
+    box-shadow: -5px 5px 15px 5px rgba(96, 96, 96, 0.4),5px -5px 15px 5px rgba(110, 110, 110, 0.4);
+}
+
+.sectionTwoContainer .contentContainerTwo {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    position: relative;
+    top: -220px;
+}
+
+.sectionTwoContainer .contentContainerTwo .sectionOne {
+    width: 400px;
+    height: 100%;
+    position: relative;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 50px;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: -2px 2px 5px 2px rgba(85, 85, 85, 0.3),2px -2px 2px 2px rgba(94, 94, 94, 0.2);
+}
+
+.sectionTwoContainer .contentContainerTwo .sectionOne .one {
+    width: 100%;
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to left, #af37ff, #fa29fe);
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.sectionTwoContainer .contentContainerTwo .sectionOne .one span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: "Jost", sans-serif;
+    color: #fff;
+    padding: 5px;
+}
+
+.sectionTwoContainer .contentContainerTwo .sectionOne .two {
+    width: 98%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #fa29fe;
+    border-radius: 30px;
+    box-shadow: -2px 2px 5px 2px rgba(85, 85, 85, 0.3),2px -2px 2px 2px rgba(94, 94, 94, 0.2);
+    margin: 20px 0;
+}
+
+.sectionTwoContainer .contentContainerTwo .sectionOne .two label {
+    font-size: 16px;
+    font-weight: 600;
+    font-family: "Quicksand", sans-serif;
+    margin: 0 20px;
+    background-image: linear-gradient(to left, #a63fff, #ff42fc);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.sectionTwoContainer .contentContainerTwo .sectionOne .two input[type="date"] {
+    border: 1px solid #fa29fe;
+    border-radius: 5px;
+    padding: 0 5px;
+}
+
+
+.sectionTwoContainer .contentContainerTwo .sectionOne .three {
+    width: 98%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #fa29fe;
+    border-radius: 30px;
+    box-shadow: -2px 2px 5px 2px rgba(85, 85, 85, 0.3),2px -2px 2px 2px rgba(94, 94, 94, 0.2);
+    margin: 20px 0;
+}
+
+.sectionTwoContainer .contentContainerTwo .sectionOne .three input[type="date"] {
+    border: 1px solid #fa29fe;
+    border-radius: 5px;
+    padding: 0 5px;
+}
+
+.sectionTwoContainer .contentContainerTwo .sectionOne .three label {
+    font-size: 16px;
+    font-weight: 600;
+    font-family: "Quicksand", sans-serif;
+    margin: 0 20px;
+    background-image: linear-gradient(to left, #a63fff, #ff42fc);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.sectionTwoContainer .contentContainerTwo .sectionTwo {
+    width: 500px;
+    height: 70%;
+    position: relative;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff;
+    margin: 0 50px;
+    box-shadow: -2px 2px 5px 2px rgba(85, 85, 85, 0.3),2px -2px 2px 2px rgba(94, 94, 94, 0.2);
+    border-radius: 10px;
+}
+
+.sectionTwoContainer .contentContainerTwo .sectionTwo .one {
+    width: 100%;
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to left, #af37ff, #fa29fe);
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.sectionTwoContainer .contentContainerTwo .sectionTwo .one span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: "Jost", sans-serif;
+    color: #fff;
+    padding: 5px;
+}
+
+.sectionTwoContainer .contentContainerTwo .sectionTwo .two {
+    width: 98%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 25px 0;
+}
+
+.sectionTwoContainer .contentContainerTwo .sectionTwo .two input[type="search"] {
+    width: 100%;
+    height: 100%;
+    border: 1px solid #fa29fe;
+    border-radius: 30px;
+    color: rgb(128, 126, 126,.4);
+    font-size: 15px;
+    padding-left: 40px;
+    background-size: 20px;
+}
+
+.sectionTwoContainer .contentContainerTwo .sectionTwo .two svg {
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    fill: rgb(128, 126, 126,.7);
+    right: 460px;
+}
+
+.sectionTwoContainer .contentContainerTwo .sectionThree {
+    width: 300px;
+    height: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    background: linear-gradient(to left, #af37ff, #fa29fe);
+    margin: 0 50px;
+    border-radius: 20px;
+    cursor: pointer;
+    box-shadow: -2px 2px 5px 2px rgba(85, 85, 85, 0.3),2px -2px 2px 2px rgba(94, 94, 94, 0.2);
+}
+
+.sectionTwoContainer .contentContainerTwo .sectionThree:hover {
+    border: 2px solid #fff;
+}
+
+.sectionTwoContainer .contentContainerTwo .sectionThree .threeContainer {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.sectionTwoContainer .contentContainerTwo .sectionThree .threeContainer span {
+    font-size: 35px;
+    font-weight: 600;
+    font-family: "Jost", sans-serif;
+    color: #fff;
+}

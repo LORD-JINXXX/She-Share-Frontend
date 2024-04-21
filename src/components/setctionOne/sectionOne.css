@@ -1,0 +1,242 @@
+main {
+    margin: 0;
+    padding: 0;
+    display: grid;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100vw;
+    height: 500px;
+    margin-bottom: 50px;
+}
+
+.container .backGround {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 1000px;
+    height: 500px;
+    top: 300px;
+    border-radius: 40px;
+}
+
+.container .backGround img {
+    width: 100%;
+    height: 100%;
+    border-radius: 40px;
+    box-shadow: -5px 5px 15px 5px rgba(96, 96, 96, 0.4),5px -5px 15px 5px rgba(110, 110, 110, 0.4);
+}
+
+.container .contentContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: -195px;
+}
+
+.container .contentContainer .sectionOne {
+    width: 300px;
+    height: 300px;
+    margin: 0 50px;
+    background: linear-gradient(to left, #af37ff, #fa29fe);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: -5px 5px 15px 5px rgba(145, 145, 145, 0.4),5px -5px 15px 5px rgba(145, 145, 145, 0.4);
+}
+
+.container .contentContainer .sectionOne:hover {
+    padding: 2px;
+}
+
+.container .content .sectionOne .oneContainer {
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 5px;
+}
+
+.container .contentContainer .sectionOne .oneContainer .image {
+    width: 300px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.container .contentContainer .sectionOne .oneContainer .image img {
+    width: 300px;
+    height: 200px;
+    border-radius: 5px 5px 0 0;
+}
+
+.container .contentContainer .sectionOne .oneContainer .title {
+    width: 300px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to left, #af37ff, #fa29fe);
+    border-radius: 0 0 5px 5px;
+}
+
+.container .contentContainer .sectionOne .oneContainer .title h2 {
+    width: auto;
+    font-size: 22px;
+    font-weight: 600;
+    font-family: "Jost", sans-serif;
+    padding: 5px 10px;
+    color: #fff;
+}
+
+.container .contentContainer .sectionTwo {
+    width: 300px;
+    height: 300px;
+    margin: 0 50px;
+    background: linear-gradient(to left, #af37ff, #fa29fe);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: -5px 5px 15px 5px rgba(145, 145, 145, 0.4),5px -5px 15px 5px rgba(145, 145, 145, 0.4);
+}
+
+.container .contentContainer .sectionTwo:hover {
+    padding: 2px;
+}
+
+.container .contentContainer .sectionTwo .twoContainer {
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 5px;
+}
+
+.container .contentContainer .sectionTwo .twoContainer .image {
+    width: 300px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.container .contentContainer .sectionTwo .twoContainer .image img {
+    width: 300px;
+    height: 200px;
+    border-radius: 5px 5px 0 0;
+}
+
+.container .contentContainer .sectionTwo .twoContainer .title {
+    width: 300px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to left, #af37ff, #fa29fe);
+    border-radius: 0 0 5px 5px;
+}
+
+.container .contentContainer .sectionTwo .twoContainer .title h2 {
+    width: auto;
+    font-size: 22px;
+    font-weight: 600;
+    font-family: "Jost", sans-serif;
+    padding: 5px 10px;
+    color: #fff;
+}
+
+.container .contentContainer .sectionThree {
+    width: 500px;
+    height: 500px;
+    margin: 0 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container .contentContainer .sectionThree .threeContainer {
+    width: 300px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: -5px 5px 15px 5px rgba(145, 145, 145, 0.4),5px -5px 15px 5px rgba(145, 145, 145, 0.4);
+    background: linear-gradient(to left, #af37ff, #fa29fe);
+    border-radius: 10px;
+    position: relative;
+    cursor: pointer;
+    margin: 15px 0;
+}
+
+.container .contentContainer .sectionThree .threeContainer:hover {
+    padding: 1.5px;
+}
+
+.container .contentContainer .sectionThree .threeContainer .content {
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: row;
+    border-radius: 10px;
+}
+
+.container .contentContainer .sectionThree .threeContainer .content .image {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to left, #af37ff, #fa29fe);
+    padding: 1px;
+    border-radius: 50%;
+    margin: 0 20px;
+}
+
+.container .contentContainer .sectionThree .threeContainer .content .image img {
+    width: 50px;
+    height: 50px;
+    background-color: #fff;
+    border-radius: 50%;
+    box-shadow: -2px 2px 5px 2px rgb(105, 105, 105,.2),2px -2px 5px 2px rgb(105, 105, 105,.2);
+}
+
+.container .contentContainer .sectionThree .threeContainer .content .title {
+    width: auto;
+    height: auto;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0 10px;
+    font-size: 18px;
+    font-weight: 700;
+    font-family: "Jost", sans-serif;
+    background-image: linear-gradient(to left, #9944fa, #f642ff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}

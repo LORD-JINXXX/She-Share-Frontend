@@ -1,0 +1,275 @@
+main {
+    margin: 0;
+    padding: 0;
+}
+
+.footerWrapper {
+    width: 100vw;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: linear-gradient(to left, rgb(162, 0, 255), rgb(255, 1, 221));
+    padding: 1px 0 0 0;
+    margin-top: 20px;
+}
+
+.footerWrapper .footerContainer {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+}
+
+.footerWrapper .footerContainer .footerContainerContent {
+    width: 100%;
+    height: 95%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.footerWrapper .footerContainer .footerContainerContent .containerOne {
+    width: 250px;
+    height: 200px;
+    margin: 0 25px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+}
+
+.footerWrapper .footerContainer .footerContainerContent .containerOne .title {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.footerWrapper .footerContainer .footerContainerContent .containerOne .title span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2px 20px;
+    background: linear-gradient(to left, rgb(162, 0, 255), rgb(255, 1, 221));
+    color: #fff;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: "Jost", sans-serif;
+    border-radius: 10px;
+}
+
+.footerWrapper .footerContainer .footerContainerContent .containerOne .cont {
+    width: 100%;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.footerWrapper .footerContainer .footerContainerContent .containerOne .cont span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: "Quicksand", sans-serif;
+    background-image: linear-gradient(to left, #9b0fff, #fc0ae4);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin: 3px 0;
+    cursor: pointer;
+}
+
+.footerWrapper .footerContainer .footerContainerContent .containerOne .cont span:hover {
+    font-size: 18px;
+}
+
+.footerWrapper .footerContainer .footerContainerContent .containerTwo {
+    width: 250px;
+    height: 200px;
+    margin: 0 25px;
+}
+
+.footerWrapper .footerContainer .footerContainerContent .containerTwo .title {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.footerWrapper .footerContainer .footerContainerContent .containerTwo .title span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2px 20px;
+    background: linear-gradient(to left, rgb(162, 0, 255), rgb(255, 1, 221));
+    color: #fff;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: "Jost", sans-serif;
+    border-radius: 10px;
+}
+
+.footerWrapper .footerContainer .footerContainerContent .containerTwo .cont {
+    width: 100%;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.footerWrapper .footerContainer .footerContainerContent .containerTwo .cont span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: "Quicksand", sans-serif;
+    background-image: linear-gradient(to left, #9b0fff, #fc0ae4);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin: 3px 0;
+    cursor: pointer;
+}
+
+.footerWrapper .footerContainer .footerContainerContent .containerTwo .cont span:hover {
+    font-size: 18px;
+}
+
+.footerWrapper .footerContainer .footerContainerContent .containerThree {
+    width: 250px;
+    height: 200px;
+    margin: 0 25px;
+}
+
+.footerWrapper .footerContainer .footerContainerContent .containerThree .title {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.footerWrapper .footerContainer .footerContainerContent .containerThree .title span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2px 20px;
+    background: linear-gradient(to left, rgb(162, 0, 255), rgb(255, 1, 221));
+    color: #fff;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: "Jost", sans-serif;
+    border-radius: 10px;
+}
+
+.footerWrapper .footerContainer .footerContainerContent .containerThree .cont {
+    width: 100%;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.footerWrapper .footerContainer .footerContainerContent .containerThree .cont span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: "Quicksand", sans-serif;
+    background-image: linear-gradient(to left, #9b0fff, #fc0ae4);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin: 3px 0;
+    cursor: pointer;
+}
+
+.footerWrapper .footerContainer .footerContainerContent .containerThree .cont span:hover {
+    font-size: 18px;
+}
+
+.footerWrapper .footerContainer .footerContainerContent .containerFour {
+    width: 250px;
+    height: 200px;
+    margin: 0 25px;
+}
+
+.footerWrapper .footerContainer .footerContainerContent .containerFour .title {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.footerWrapper .footerContainer .footerContainerContent .containerFour .title span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2px 20px;
+    background: linear-gradient(to left, rgb(162, 0, 255), rgb(255, 1, 221));
+    color: #fff;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: "Jost", sans-serif;
+    border-radius: 10px;
+}
+
+.footerWrapper .footerContainer .footerContainerContent .containerFour .cont {
+    width: 100%;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.footerWrapper .footerContainer .footerContainerContent .containerFour .cont span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: "Quicksand", sans-serif;
+    background-image: linear-gradient(to left, #9b0fff, #fc0ae4);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin: 3px 0;
+    cursor: pointer;
+}
+
+.footerWrapper .footerContainer .footerContainerContent .containerFour .cont span:hover {
+    font-size: 18px;
+}
+
+.footerWrapper .footerContainer .footerContainerCopyright {
+    width: 100%;
+    height: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to left, rgb(162, 0, 255), rgb(255, 1, 221));
+}
+
+.footerWrapper .footerContainer .footerContainerCopyright span {
+    font-size: 15px;
+    font-weight: 700;
+    font-family: "Quicksand", sans-serif;
+    color: #fff;
+}

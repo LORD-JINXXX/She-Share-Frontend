@@ -1,0 +1,135 @@
+main {
+    
+    margin: 0;
+    padding: 0;
+    display: grid;
+}
+
+nav {
+    width: 100vw;
+    height: 50px;
+    position: relative;
+    background: linear-gradient(to left, #904bff, #d736f7);
+    padding-bottom: 3px;
+}
+
+.nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+}
+
+.sectionOne {
+    width: 300px;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.sectionOne .logo {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    margin: 0 5px;
+}
+
+.sectionOne .logo img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    box-shadow: -2px 2px 10px 1px rgb(105, 105, 105,.4),2px -2px 10px 1px rgb(105, 105, 105,.4);
+}
+
+.sectionOne .name {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 0 5px;
+}
+
+.sectionOne .name .s1 {
+    font-size: 18px;
+    font-weight: 700;
+    font-family: "Raleway", sans-serif;
+    background-image: linear-gradient(to left, #9b19ff, #ff3ce2);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.sectionOne .name .s2 {
+    font-size: 12px;
+    font-weight: 500;
+    font-family: "Mulish", sans-serif;
+    background: linear-gradient(to left, #9b19ff, #ff3ce2);
+    color: #fff;
+    padding: 3px;
+}
+
+.sectionTwo {
+    width: 900px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sectionTwo .link {
+    width: auto;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: "Mulish", sans-serif;
+    background-image: linear-gradient(to left, #8336ff, #fc2df5);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin: 0 15px;
+    cursor: pointer;
+}
+
+.sectionTwo .link:hover {
+    font-size: 19px;
+}
+
+.sectionThree {
+    width: 300px;
+    height: 100%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.sectionThree button {
+    width: auto;
+    height: 22px;
+    padding: 15px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    background: linear-gradient(to left, #904bff, #d736f7);
+    color: #fff;
+    font-family: "Mulish", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    border: none;
+    margin: 0 10px;
+    cursor: pointer;
+}
+
+.sectionThree button:hover {
+    background: none;
+    background-image: linear-gradient(to left, #8c00ff, #dd07f5);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    border: 1.5px solid #d736f7;
+}
